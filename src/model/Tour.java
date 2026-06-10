@@ -1,71 +1,62 @@
 package model;
 
-public class Reserva {
-    private String nombre;
-    private String alojamiento;
-    private String transporte;
-    private double precio;
-    private int personas;
+/**
+ * Esta clase representa el tour con su precio, nombre y tipo
+ * de la empresa LlanquihueTour
+ *
+ *
+ */
 
-    public Reserva() {
-    }
+public class Tour {
+   private String tour;
+   private String tipo;
+   private double precio;
 
-    public Reserva(String nombre, String alojamiento, String transporte, double precio, int personas) {
-        this.nombre = nombre;
-        this.alojamiento = alojamiento;
-        this.transporte = transporte;
-        this.precio = precio;
-        this.personas = personas;
-    }
+   public Tour() {
+   }
 
-    public String getNombre() {
-        return nombre;
-    }
+   /**
+    *
+    * @param tour representa el nombre del tour
+    * @param tipo representa el tipo, si es cultural, aventura etc.
+    * @param precio el precio del tour por persona.
+    */
+   public Tour(String tour, String tipo, double precio) {
+      this.tour = tour;
+      this.tipo = tipo;
+      this.precio = precio;
+   }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+   public String getTour() {
+      return tour;
+   }
 
-    public String getAlojamiento() {
-        return alojamiento;
-    }
+   public void setTour(String tour) {
+      this.tour = tour;
+   }
 
-    public void setAlojamiento(String alojamiento) {
-        this.alojamiento = alojamiento;
-    }
+   public String getTipo() {
+      return tipo;
+   }
 
-    public String getTransporte() {
-        return transporte;
-    }
+   public void setTipo(String tipo) {
+      this.tipo = tipo;
+   }
 
-    public void setTransporte(String transporte) {
-        this.transporte = transporte;
-    }
+   public double getPrecio() {
+      return precio;
+   }
 
-    public double getPrecio() {
-        return precio;
-    }
+   public void setPrecio(double precio) {
+      this.precio = precio;
+   }
 
-    public void setPrecio(double precio) {
-        this.precio = precio;
-    }
-
-    public int getPersonas() {
-        return personas;
-    }
-
-    public void setPersonas(int personas) {
-        this.personas = personas;
-    }
-
-    @Override
-    public String toString() {
-        return "Reserva{" +
-                "nombre='" + nombre + '\'' +
-                ", alojamiento='" + alojamiento + '\'' +
-                ", transporte='" + transporte + '\'' +
-                ", precio=" + precio +
-                ", personas=" + personas +
-                '}';
-    }
+   @Override
+   public String toString() {
+      return "Tour{" +
+              "tour='" + tour + '\'' +
+              ", tipo='" + tipo + '\'' +
+              ", precio=" + precio +
+              '}';
+   }
 }

@@ -1,0 +1,5 @@
+torres del paine;natural;44000
+islas de chiloe;cultural;60000
+licanray;aventura;40000
+glaciar grey;aventura;70000
+puerto natales;cultural;35000
