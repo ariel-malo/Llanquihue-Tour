@@ -10,7 +10,7 @@ Actividad Formativa semana 4 – Desarrollo Orientado a Objetos I
 
 ## 📘 Descripción general del sistema
 Este proyecto corresponde a la actividad formativa de la semana 4, aca abordaremos el caso de Llanquihue-Tour
-creando un sistema de listas de Tours con sus respectivos atributos ya sea: nombre, tipo y precio, la gestion
+creando un sistema de listas de Tours con sus respectivos atributos ya sea: nombre, tipo y precio, facilitando la gestion
 de la empresa.
 
 ## 🧱 Estructura general del proyecto
